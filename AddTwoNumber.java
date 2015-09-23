@@ -1,8 +1,5 @@
-class ListNode {
-	int val;
-	ListNode next;
-	ListNode (int x) {val = x; }
-}
+
+
 public class AddTwoNumber {
 
 	public static void main(String[] args) {

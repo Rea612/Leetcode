@@ -1,6 +1,6 @@
 
 public class NthToLastNodeInList {
-	public nthToLast (ListNode head, int n){
+	public ListNode nthToLast (ListNode head, int n){
 		if (head == null){
 			return null;
 		}
