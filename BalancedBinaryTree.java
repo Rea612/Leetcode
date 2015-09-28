@@ -1,4 +1,4 @@
-class TreeNode {
+/*class TreeNode {
 	      public int val;
 	      public TreeNode left, right;
 	      public TreeNode(int val) {
@@ -6,6 +6,7 @@ class TreeNode {
 	          this.left = this.right = null;
 	      }
 	  }
+*/
 public class BalancedBinaryTree {
 	public boolean isBalanced(TreeNode root) {
         if (root == null){

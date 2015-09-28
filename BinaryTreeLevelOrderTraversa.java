@@ -1,12 +1,13 @@
 import java.util.*;
-class TreeNode {
-    public int val;
-    public TreeNode left, right;
-    public TreeNode(int val) {
-        this.val = val;
-        this.left = this.right = null;
-    }
+/*class TreeNode {
+public int val;
+public TreeNode left, right;
+public TreeNode(int val) {
+    this.val = val;
+    this.left = this.right = null;
 }
+}
+*/
 public class BinaryTreeLevelOrderTraversa {
 	public ArrayList<ArrayList<Integer>> levelOrder(TreeNode root) {
         // write your code here
