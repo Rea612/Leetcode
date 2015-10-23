@@ -1,21 +1,27 @@
 
 public class SearchInsertPosition {
-	public int searchInsertPosition (int [] A, int target){
-		int index = 0;
-		if (A.length == 0 || A == null){
-			return 0;
-		}
-		for (int i = 0; i < A.length; i ++){
-			if (A [i] == target){
-				index = i;
+	public static void main (String[]args){
+		int [] a = {2, 5, 7, 10};
+		System.out.println (searchInsertPosition (a, 5));
+		System.out.println (searchInsertPosition (a, 11));
+		System.out.println (searchInsertPosition (a, 2));
+		
+	}
+	public static int searchInsertPosition (int [] A, int target){
+		int high = A.length -1;
+		int low = 0;
+		while (low <=high){
+			int mid = low + (high - low)/2;
+			if (A[mid] == target){
+				return mid;
 			}
-			else if (A [i] < target){
-				A [i] = target;
-				index = i + 1;
+			else if (A[mid] < target ){
+				low = mid + 1;
 			}
-			
+			else {
+				high = mid -1;
+			}
 		}
-		return index;
+		return low;
 	}
 }
-//another method can use binary search

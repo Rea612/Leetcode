@@ -1,5 +1,7 @@
 import java.util.*;
 
+
+/*
 class TreeNode {
 	int val;
 	TreeNode left;
@@ -7,6 +9,7 @@ class TreeNode {
 	TreeNode (int x ){val = x;}
 	
 }
+*/
 public class BinaryTreeInorderTraversal {
 	public List<Integer> inorderTraversal (TreeNode root){
 		ArrayList<Integer>result = new ArrayList <Integer>();
