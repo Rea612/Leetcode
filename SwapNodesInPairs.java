@@ -1,9 +1,9 @@
-class ListNode {
+/*class ListNode {
       int val;
       ListNode next;
       ListNode(int x) { val = x; }
   }
-
+*/
 public class SwapNodesInPairs {
 
 	public static ListNode swapNodes (ListNode head){
